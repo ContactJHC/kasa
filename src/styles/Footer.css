@@ -1,0 +1,16 @@
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+
+#logoContainer {
+    padding: 1.5em;
+    height : 40px;
+}
+
+#footerText {
+    margin: 0;
+    padding-bottom: 1.5em;
+}

@@ -1,0 +1,14 @@
+#kasa-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#kasa-nav {
+    display: flex;
+    align-items: center;
+}
+
+.kasa-nav {
+    margin-right: 2em;
+    color: #FF6060;
+}
