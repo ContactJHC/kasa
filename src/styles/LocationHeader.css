@@ -1,0 +1,47 @@
+#locHeaderContainer {
+    color: #FF6060;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+
+}
+
+#namePlaceTags {
+    /* flex-basis : auto; */
+}
+
+#ownerRating {
+    text-align: right;
+
+}
+
+#name {
+    font-size: 36px;
+}
+
+#place {
+    margin : 5px 0;
+}
+
+#tags {
+    display: flex;
+    margin: 5px;
+}
+
+#owner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#ownerName {
+    width: 6em;
+    margin-right: 10px;
+}
+
+#hostPicture {
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+}

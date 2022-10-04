@@ -1,0 +1,40 @@
+#carouselContainer {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+
+}
+
+.visiblePicture {
+    object-fit: fill;
+    width: 100%;
+    /* min-height: 100%; */
+    border-radius: 25px;
+}
+
+#arrBack, #arrForw {
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    user-select: none;
+    top: 140px;
+}
+
+#arrBack {
+    left: 1em;
+}
+
+#arrForw {
+    right: 1em;
+
+}
+
+.active{
+    display: block;
+}
+
+.inactive {
+    display: none;
+}
