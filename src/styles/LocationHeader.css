@@ -6,10 +6,6 @@
 
 }
 
-#namePlaceTags {
-    /* flex-basis : auto; */
-}
-
 #ownerRating {
     text-align: right;
 
@@ -25,7 +21,6 @@
 
 #tags {
     display: flex;
-    margin: 5px;
 }
 
 #owner {
@@ -36,7 +31,7 @@
 }
 
 #ownerName {
-    width: 6em;
+    width: 5em;
     margin-right: 10px;
 }
 
@@ -44,4 +39,27 @@
     width: 64px;
     height: 64px;
     border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+    #locHeaderContainer {
+        flex-direction: column;
+    }
+
+    #ownerRating {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #rating {
+        order: 0;
+    }
+
+    #owner {
+        order: 1;
+    }
+    
+
 }

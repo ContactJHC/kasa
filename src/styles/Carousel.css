@@ -4,7 +4,7 @@
     position: relative;
     overflow: hidden;
     border-radius: 25px;
-
+    margin-bottom: 20px;
 }
 
 .visiblePicture {
@@ -37,4 +37,29 @@
 
 .inactive {
     display: none;
+}
+
+@media (max-width: 768px) {
+
+    #carouselContainer {
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+
+    #arrBack, #arrForw {
+        width: 36px;
+        height: 36px;
+        top: 100px;
+    }
+
+    #arrForw {
+        right: 0.3em;
+    }
+
+    #arrBack {
+        left: 0.3em;
+    }
+
+
 }
